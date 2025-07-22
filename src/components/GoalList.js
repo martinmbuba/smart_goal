@@ -69,8 +69,15 @@ function GoalList({ goals, updateGoal, deleteGoal, makeDeposit, markGoalDone }) 
       <h2>Goals</h2>
       {goals.length === 0 && <p>No goals yet.</p>}
       <ul style={{ listStyle: 'none', padding: 0 }}>
-        {goals.map((goal) => (
-          <li key={goal.id} style={{ border: '1px solid #ccc', marginBottom: 10, padding: 10 }}>
+        {goals
+          .slice()
+          .sort((a, b) => {
+            const daysLeftA = daysLeft(a);
+            const daysLeftB = daysLeft(b);
+            return daysLeftA - daysLeftB;
+          })
+          .map((goal) => (
+            <li key={goal.id} style={{ border: '1px solid #ccc', marginBottom: 10, padding: 10 }}>
             {editingGoalId === goal.id ? (
               <div>
                 <input

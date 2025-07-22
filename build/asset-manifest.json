@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/smart_goal/static/css/main.942a5616.css",
+    "main.js": "/smart_goal/static/js/main.eb1cf064.js",
+    "index.html": "/smart_goal/index.html",
+    "main.942a5616.css.map": "/smart_goal/static/css/main.942a5616.css.map",
+    "main.eb1cf064.js.map": "/smart_goal/static/js/main.eb1cf064.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.942a5616.css",
+    "static/js/main.eb1cf064.js"
+  ]
+}

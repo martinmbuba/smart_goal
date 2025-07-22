@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3001/goals';
+// Replace with your Render deployment URL
+const API_URL = 'https://smart-goal-v2sk.onrender.com/goals';
 
 const api = {
   getGoals: async () => {

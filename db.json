@@ -53,6 +53,15 @@
       "savedAmount": 0,
       "createdAt": "2025-07-22",
       "id": "YoNyZp4"
+    },
+    {
+      "name": "kevin",
+      "targetAmount": 40000,
+      "category": "transport",
+      "deadline": "2026-02-05",
+      "savedAmount": 0,
+      "createdAt": "2025-07-22",
+      "id": "muC6cef"
     }
   ]
 }
